@@ -1,12 +1,22 @@
 {
+  "name": "medbox",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
   "dependencies": {
-    "@react-navigation/native": "^6.1.18",
-    "@react-navigation/native-stack": "^6.11.0",
-    "expo": "^51.0.35",
-    "react-native-safe-area-context": "^4.11.0",
-    "react-native-screens": "^3.34.0",
-    "react-native-web": "~0.19.10",
-    "react-dom": "18.2.0",
-    "@expo/metro-runtime": "~3.2.3"
-  }
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/stack": "^7.0.0",
+    "react-native": "0.76.1",
+    "react-native-gesture-handler": "^2.20.2",
+    "react-native-reanimated": "^3.16.1"
+  },
+  "main": "App.js",
+  "devDependencies": {
+    "@react-native-community/cli": "latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
